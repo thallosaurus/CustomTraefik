@@ -4,6 +4,9 @@ entryPoints:
 
   websecure:
     address: ":443"
+    
+  rdp:
+    address: ":3389"
 
 api:
   dashboard: true
