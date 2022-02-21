@@ -8,14 +8,14 @@ entryPoints:
   rdp:
     address: ":3389"
 
-#certificatesResolvers:
-#  myresolver:
-#    acme:
-#      email: le@rillo5000.com
-#      storage: acme.json
-#      httpChallenge:
-#        # used during the challenge
-#        entryPoint: web
+certificatesResolvers:
+  myresolver:
+    acme:
+      email: le@rillo5000.com
+      storage: acme.json
+      httpChallenge:
+        # used during the challenge
+        entryPoint: web
 
 api:
   dashboard: true
