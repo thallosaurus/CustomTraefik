@@ -9,7 +9,7 @@ entryPoints:
     address: ":3389"
 
 certificatesResolvers:
-  myresolver:
+  sslresolver:
     acme:
       email: le@rillo5000.com
       storage: acme.json
